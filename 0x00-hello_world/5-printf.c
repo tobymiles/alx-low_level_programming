@@ -3,8 +3,10 @@
 /*
  *
  * main - main block
+ * 
+ * Description: 'printf code'
  *
- * Return : Always 0
+ * Return : Always 0 (success)
  *
  */
 
