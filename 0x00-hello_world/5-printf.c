@@ -2,7 +2,7 @@
 
 /*
  *
- * main - Entry point
+ * main - main block
  *
  * Return : Always 0
  *
