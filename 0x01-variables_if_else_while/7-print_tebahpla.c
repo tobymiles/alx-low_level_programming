@@ -2,20 +2,16 @@
 
 
 /**
- * main - function prints the numbers in base 16
+ * main - function prints the alphabets in reverse
  * Return: Always 0
  */
 
 int main(void)
 {
-	int num;
-	char la;
+	char le;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
-
-	for (la = 'a'; la <= 'f'; la++)
-		putchar(la);
+	for (le = 'z'; le >= 'a'; le--)
+		putchar(le);
 
 	putchar('\n');
 
