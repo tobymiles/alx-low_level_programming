@@ -1,7 +1,9 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - function prints all combination of single digits
+ * Description: prints all single numbers of base 10
+ * sterting from 0, followed by new line
  * Return Always 0
  */
 
