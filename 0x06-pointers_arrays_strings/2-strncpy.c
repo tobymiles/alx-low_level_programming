@@ -9,14 +9,20 @@
  *  If c is not found - NULL.
  */
 
-char *_strchr(char *s, char c)
+char *_strncpy(char *dest, char *src, int n)
 {
-	int index;
+	int j;
 
-	for (index = 0; s[index] >= '\0'; index++)
+	j = 0;
+	while (j < n && src[j] != '\0')
 	{
-		if (s[index] == c)
-			return (s + index);
+		dest[j] = src[j];
+		j++;
 	}
-	return ('\0');
+	while (j < n)
+	{
+		dest[j] = '\0';
+		j++;
+	}
+	return (dest);
 }
